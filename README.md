@@ -5,9 +5,9 @@ This is a shopping cart that us powered by Alan Ai. Add from a list of available
 
 
 ## Tools used
-React
-React-icons 
-Alan Studion 
+- React
+- React-icons 
+- Alan Studion 
 
 ## Project link 
 => https://ai-shopping-cart.netlify.app/ => Desktop version 
