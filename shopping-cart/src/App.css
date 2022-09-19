@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body {
+  background-image: url('../public/images.jpg');
+  font-family: 'Kalam', cursive;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  
+}
+
+.items{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  gap: 10px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.items2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-item {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #4A4B4E;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.header2 {
+  position: relative;
+  top: 30px;
+}
+
+.icon{
+  color: #333439;
+}
+
+h1 {
+  color: #000000;
+}
+
+.add-btn {
+  width: 100px ;
+  background-color: #029AE0;
+  border-radius: 100px;
+  box-shadow: #6ABAEC 0 -25px 18px -14px inset,#6ABAEC 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif, 'Kalam', cursive;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add-btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
